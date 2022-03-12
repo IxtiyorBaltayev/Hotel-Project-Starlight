@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="vendors/css/all.css">
+  <link rel="stylesheet" href="vendors/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Hotel website</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <div class="container">
+      <a href="index.html" class="navbar-brand">Starlight Hotel</a>
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a href="index.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="about.html" class="nav-link">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a href="gallery.html" class="nav-link">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- SHOWCASE SLIDER -->
+  <section id="showcase">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item carousel-image-1 active">
+          <div class="container">
+            <div class="carousel-caption d-none d-sm-block text-right mb-5">
+              <h1 class="display-3">Birinchi sahifa</h1>
+              <p class="lead">Mehmonxonamizmi tanlaganlar Aslo adashmaydi. Bizning xonalarimiz keng va oziga xosligi bilan ajralib turadi.</p>
+              <a href="about.html" class="btn btn-danger btn-lg">Batafsil</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item carousel-image-2">
+          <div class="container">
+            <div class="carousel-caption d-none d-sm-block mb-5">
+              <h1 class="display-3">Ikkinchi sahifa</h1>
+              <p class="lead">Mehmonxona oshpazlari albtta o`zgacha taomlar bilan sizni lol qoldirishadi!!!</p>
+              <a href="about.html" class="btn btn-primary btn-lg">Batafsil</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item carousel-image-3">
+          <div class="container">
+            <div class="carousel-caption d-none d-sm-block text-right mb-5">
+              <h1 class="display-3">Uchinchi sahifa</h1>
+              <p class="lead">Bizning mehmonxonamizda yozni maroqli o`tkazing!!!</p>
+              <a href="about.html" class="btn btn-success btn-lg">Batafsil</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <a href="#myCarousel" data-slide="prev" class="carousel-control-prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+
+      <a href="#myCarousel" data-slide="next" class="carousel-control-next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+  </section>
+
+
+<!-- Start below here-->
+  <div class="img1">
+    <div class="container">
+      <p class="info-text">Bizning Mehmonxonamiz haqida to`liqroq ma`lumot oling!!!</p>
+      <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo">Batafsil</button>
+      <div id="demo" class="collapse">
+        Mehmonxonani loyihalashtirish Evropa va Sharq uslublarini o'rganish uyg'un kombinatsiyasi bilan birga yashash. Yangi bilimlar, yangi darajadagi xizmat va mehmonlarga katta yordam berish mehmonxonada bo'lishni va juda yaxshi samimiylikni hisobga olgan holda. Barcha eshik konditsioneri, sun'iy yo'ldosh televideniesi, minibar bilan jihozlangan. Xodimlar malakali va foydali. Bu erta siz dam olish va go'zal manzaradan bahramand bo'lishingiz mumkin.
+      </div>
+    </div>
+  </div>
+  <section id="features">
+      <div class="box bg-light">
+        <i class="fas fa-hotel fa-3x"></i>
+        <h3> Ajoyib manzil</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, nisi!
+        </p>
+      </div>
+      <div class="box bg-primary">
+        <i class="fas fa-utensils fa-3x"></i>
+        <h3> Bepul ovqatlanish</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, nisi!
+        </p>
+      </div>
+      <div class="box bg-light">
+        <i class="fas fa-dumbbell fa-3x"></i>
+        <h3> Fitness xonasi</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, nisi!
+        </p>
+      </div>
+    </section>
+ </div>
+
+  <!-- FOOTER -->
+  <footer id="main-footer" class="text-center p-4" >
+    <div class="container">
+      <div class="row" >
+        <div class="col">
+          <p>Copyright &copy;
+            <span id="year"></span> All Rights are Reserved Designed By Baltayev Ixtiyor</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- VIDEO MODAL -->
+  <div class="modal fade" id="videoModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+          <button class="close" data-dismiss="modal">
+            <span>&times;</span>
+          </button>
+          <iframe src="" frameborder="0" height="350" width="100%" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <script src="vendors/js/jquery.js"></script>
+  <script src="vendors/js/popper.js"></script>
+  <script src="vendors/js/bootstrap.js"></script>
+
+  <script>
+    // Get the current year for the copyright
+    $('#year').text(new Date().getFullYear());
+
+    // Configure Slider
+    $('.carousel').carousel({
+      interval: 6000,
+      pause: 'hover'
+    });
+
+  </script>
+  <script>
+    $(document).ready(function(){
+        $("#myBtn").click(function(){
+            $("#myModal").modal();
+        });
+    });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,161 @@
+body {
+  overflow-x: hidden;
+  margin: 0%;
+  padding:0%;
+}
+
+.navbar .nav-link {
+  font-size: 14px;
+  text-transform: uppercase;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+}
+
+.navbar .nav-item.active {
+  border-left: #444 3px solid;
+}
+
+.carousel-item {
+  height: 400px;
+}
+
+.carousel-image-1 {
+  background: url('../img/hotel.jpg');
+  background-size: cover;
+}
+
+.carousel-image-2 {
+  background: url('../img/hotel1.jpg');
+  background-size: cover;
+}
+
+.carousel-image-3 {
+  background: url('../img/hotel2.jpg');
+  background-size: cover;
+}
+#main-footer{
+	background-color: #343a40;
+}
+.col{
+	font-family: sans-serif;
+  color: #fff;}
+  
+.img1{
+  background-image: url(../img/hotel\ 3.jpg);
+  width: 100%;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; 
+  height: 800px;
+  padding-top: 710px;
+  text-align: center;
+margin: 1px;
+}
+.box{
+  width: 33.3%;
+  float: left;
+  padding: 50px;
+  text-align: center;
+}
+.home-info{
+  height: 400px;
+}
+ .inco{
+  height: 100%;
+  width:50% ;
+  float: left;
+  padding:5px;
+}
+.info-content{
+  padding: 10px;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+.inco1{
+  height: 100%;
+  width:50% ;
+  float: right;
+  padding:5px;
+}
+.inco2{
+  height: 100%;
+  width:50% ;
+  float: left;
+  padding:5px;
+  clear: both;
+}
+.clr{
+  clear: both;
+}
+.row{
+  padding: 3px;
+}
+/*concat as page*/
+#contact-form{
+  padding: 20px 0px; 
+}
+#contact-form h1{
+font-size: 32px;
+}
+#contact-form .form-group{
+  margin-bottom: 20px;
+}
+
+#contact-form label{
+  margin-bottom: 5px;
+}
+
+#contact-form input,
+#contact-form textarea{
+  width: 100%; 
+padding: 10px;
+border:1px solid #ddd;
+}
+
+#contact-info{
+  display: inline-block;
+  width: 100%;
+}
+#demo{
+  font-family: sans-serif;
+  font-size: 20px;
+  color:black;
+  font-weight: bold;
+  text-align: inherit;
+}
+.info-text{
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: #15CFC7;
+}
+.galery123{
+height: 700px;
+width: 100%;
+
+}
+#showcase1{
+  background-image: url(../img/hotel4.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 600px;
+}
+#showcase1 h1{
+  text-align: center;
+  padding-top: 250px;
+}
+
+.subheader{
+  font-size: 25px;
+}
+.textlar{
+  padding-left: 50px;
+}
+.textlar p{
+  font-size: 20px;
+}
+.class{
+  font-size: 20px;  
+}
